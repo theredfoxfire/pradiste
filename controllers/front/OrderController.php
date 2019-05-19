@@ -108,21 +108,20 @@ class OrderControllerCore extends FrontController
         );
 
         $this->checkoutProcess
-            ->addStep(new CheckoutPersonalInformationStep(
-                $this->context,
-                $translator,
-                $this->makeLoginForm(),
-                $this->makeCustomerForm()
-            ))
+            // ->addStep(new CheckoutPersonalInformationStep(
+            //     $this->context,
+            //     $translator,
+            //     $this->makeLoginForm(),
+            //     $this->makeCustomerForm()
+            // ))
             ->addStep(new CheckoutAddressesStep(
                 $this->context,
                 $translator,
                 $this->makeAddressForm()
             ));
 
-        /**
-	skip delivery step
-	if (!$this->context->cart->isVirtualCart()) {
+        /**skip delivery step
+    	if (!$this->context->cart->isVirtualCart()) {
             $checkoutDeliveryStep = new CheckoutDeliveryStep(
                 $this->context,
                 $translator
@@ -143,7 +142,8 @@ class OrderControllerCore extends FrontController
                 );
 
             $this->checkoutProcess->addStep($checkoutDeliveryStep);
-        }*/
+        }
+        */
 
         $this->checkoutProcess
             ->addStep(new CheckoutPaymentStep(
