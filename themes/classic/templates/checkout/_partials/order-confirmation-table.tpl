@@ -111,7 +111,7 @@
           </tr>
         {/if}
         <tr class="font-weight-bold">
-          <td><span class="text-uppercase">{$totals.total.label}</span> {$labels.tax_short}</td>
+          <td><span>{$totals.total.label}</span> {$labels.tax_short}</td>
           <td>{$totals.total.value}</td>
         </tr>
       </table>

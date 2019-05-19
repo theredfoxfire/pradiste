@@ -53,7 +53,7 @@
           }
         {/block}
 
-        {block name='order_details'}
+        <!-- {block name='order_details'}
           <div id="order-details" class="col-md-4">
             <h3 class="h3 card-title">{l s='Order details' d='Shop.Theme.Checkout'}:</h3>
             <ul>
@@ -67,7 +67,7 @@
               {/if}
             </ul>
           </div>
-        {/block}
+        {/block} -->
 
       </div>
     </div>
