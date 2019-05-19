@@ -14,6 +14,7 @@ docs/phpdoc-sf/
 composer.lock
 tests/Selenium/errorShots/
 tests/Selenium/errorDumps/
+/var/cache/*
 
 /admin*/autoupgrade/*
 /admin*/backups/*
