@@ -29,6 +29,7 @@
       {l s='Please send us a bank wire with:' d='Modules.Wirepayment.Shop'}
     </p>
     {include file='module:ps_wirepayment/views/templates/hook/_partials/payment_infos.tpl'}
+
 {else}
     <p class="warning">
       {l s='We noticed a problem with your order. If you think this is an error, feel free to contact our [1]expert customer support team[/1].' d='Modules.Wirepayment.Shop' sprintf=['[1]' => "<a href='{$contact_url}'>", '[/1]' => '</a>']}
