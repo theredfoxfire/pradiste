@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2019-05-19 13:56:42
+/* Smarty version 3.1.32, created on 2019-05-19 16:14:18
   from '/var/www/html/prestashop/themes/classic/templates/checkout/_partials/order-confirmation-table.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5ce0fe2a24b777_31231514',
+  'unifunc' => 'content_5ce11e6a267a29_88723279',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,21 +20,21 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ce0fe2a24b777_31231514 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ce11e6a267a29_88723279 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <div id="order-items" class="col-md-12">
 
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_20610827795ce0fe2a230821_64114620', 'order_items_table_head');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_7449672725ce11e6a250899_32170281', 'order_items_table_head');
 ?>
 
 
   <div class="order-confirmation-table">
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_7447504935ce0fe2a231d71_02488534', 'order_confirmation_table');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1205747175ce11e6a251ae0_21731795', 'order_confirmation_table');
 ?>
 
 
@@ -42,12 +42,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_7447504935ce0fe2a2
 </div>
 <?php }
 /* {block 'order_items_table_head'} */
-class Block_20610827795ce0fe2a230821_64114620 extends Smarty_Internal_Block
+class Block_7449672725ce11e6a250899_32170281 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'order_items_table_head' => 
   array (
-    0 => 'Block_20610827795ce0fe2a230821_64114620',
+    0 => 'Block_7449672725ce11e6a250899_32170281',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -60,12 +60,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'order_items_table_head'} */
 /* {block 'order_confirmation_table'} */
-class Block_7447504935ce0fe2a231d71_02488534 extends Smarty_Internal_Block
+class Block_1205747175ce11e6a251ae0_21731795 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'order_confirmation_table' => 
   array (
-    0 => 'Block_7447504935ce0fe2a231d71_02488534',
+    0 => 'Block_1205747175ce11e6a251ae0_21731795',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

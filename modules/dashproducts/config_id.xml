@@ -2,7 +2,7 @@
 <module>
     <name>dashproducts</name>
     <displayName><![CDATA[Dasbor produk]]></displayName>
-    <version><![CDATA[2.0.3]]></version>
+    <version><![CDATA[2.0.4]]></version>
     <description><![CDATA[Menambahkan blok berisi data penjualan terakhir dan ranking produk]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[dashboard]]></tab>
